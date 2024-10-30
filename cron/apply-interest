@@ -1,0 +1,2 @@
+# Run the apply-interest script at midnight on the first day of every month
+0 0 1 * * node /usr/src/app/apply-interest.js >> /var/log/cron.log 2>&1
